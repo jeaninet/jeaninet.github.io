@@ -30,7 +30,7 @@ document.getElementById("runners").onclick = runnerClicked;
 function runnerClicked() {
   var bodyColor = window.getComputedStyle(document.body, null).getPropertyValue('background-color');
   var movingRunner = window.getComputedStyle(document.getElementById("zero")).getPropertyValue("display");
-  if (bodyColor === "#222" || movingRunner) {
+  if (bodyColor === "#222" || movingRunner == "block") {
     window.alert("Thank you for visiting!");
     return;
   }
