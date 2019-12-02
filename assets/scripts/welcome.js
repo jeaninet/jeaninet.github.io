@@ -24,11 +24,11 @@ function restoreWelcome() {
   runners.style.display = "block";
   runners.style.opacity = "1";
   runners.style.animation = "fadeIn4 7s ease-in, bounceUp 2s linear 6s infinite";
-  runners.onclick = null;
-  runner.onclick = null;
   // runners.onclick = runnerClicked;
 }
-document.getElementById("runners").onclick = runnerClicked;
+runner.onclick = runnerClicked;
+runners.onclick = null;
+
 function runnerClicked() {
   wipeOutWelcome();
   slideInPageTwo();
