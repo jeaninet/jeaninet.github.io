@@ -24,7 +24,7 @@ function restoreWelcome() {
   runners.style.display = "block";
   runners.style.opacity = "1";
   runners.style.animation = "fadeIn4 7s ease-in, bounceUp 2s linear 6s infinite";
-  // runners.onclick = runnerClicked;
+  runners.onclick = runnerClicked;
 }
 document.getElementById("runners").onclick = runnerClicked;
 function runnerClicked() {
@@ -32,6 +32,9 @@ function runnerClicked() {
   slideInPageTwo();
   sunReflection();
   cityFloating();
+  if (background is gray || runner is moving) {
+    display thank you
+  }
 }
 function changeBackgroundColor(walk) {
   if (walk === true) {
@@ -162,6 +165,7 @@ function doPalaceThings() {
   setTimeout(function() {
     document.getElementById("drag-runner").style.display = "block";
     document.getElementById("div2").style.display = "block";
+    document.getElementById("drag-runner").style.cursor = 'assets/img/runners/cursor.png';
   }, 7950);
 }
 
