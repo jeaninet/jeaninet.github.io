@@ -180,8 +180,8 @@ function drop(ev) {
 function doBasementThings() {
   document.getElementById("palace").style.animation = "fadeIn 1s linear reverse";
   document.getElementById("palace").style.animationFillMode = "forwards";
+  document.body.style.backgroundColor = "#222";
   setTimeout(function() {
-    document.body.style.backgroundColor = "#222";
     document.getElementById("basement").style.display = "block";
     document.getElementById("palace").style.display = "none";
   }, 1000);
