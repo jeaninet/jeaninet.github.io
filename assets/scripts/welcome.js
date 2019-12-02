@@ -24,10 +24,9 @@ function restoreWelcome() {
   runners.style.display = "block";
   runners.style.opacity = "1";
   runners.style.animation = "fadeIn4 7s ease-in, bounceUp 2s linear 6s infinite";
-  runners.onclick = null;
+  // runners.onclick = runnerClicked;
 }
-runner.onclick = runnerClicked;
-
+document.getElementById("runners").onclick = runnerClicked;
 function runnerClicked() {
   wipeOutWelcome();
   slideInPageTwo();
