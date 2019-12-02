@@ -28,13 +28,17 @@ function restoreWelcome() {
 }
 document.getElementById("runners").onclick = runnerClicked;
 function runnerClicked() {
+  var bodyColor = window.getComputedStyle(document.body, null).getPropertyValue('background-color');
+  var movingRunner = window.getComputedStyle(document.getElementById("zero")).getPropertyValue("display");
+  if (bodyColor === "#222" || movingRunner) {
+    window.alert("Thank you for visiting!");
+    return;
+  }
   wipeOutWelcome();
   slideInPageTwo();
   sunReflection();
   cityFloating();
-  if (background is gray || runner is moving) {
-    display thank you
-  }
+
 }
 function changeBackgroundColor(walk) {
   if (walk === true) {
@@ -165,7 +169,7 @@ function doPalaceThings() {
   setTimeout(function() {
     document.getElementById("drag-runner").style.display = "block";
     document.getElementById("div2").style.display = "block";
-    document.getElementById("drag-runner").style.cursor = 'assets/img/runners/cursor.png';
+    // document.getElementById("drag-runner").style.cursor = 'assets/img/runners/cursor.png';
   }, 7950);
 }
 
