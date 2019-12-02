@@ -1,0 +1,559 @@
+body {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #ffac30;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  animation: none;
+}
+
+
+/* MAIN WELCOME */
+#welcome {
+  display: flex;
+  flex-direction: column;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+  margin-bottom: 15%;
+  margin-right: 0%;
+  margin-left: 70%;
+  margin-right: 10%;
+}
+.nav-bar-item {
+  margin-bottom: 2.5%;
+  margin-left: 10%;
+  font-size: 85%;
+  letter-spacing: 0.5em;
+}
+.nav-bar-item:hover {
+  cursor: pointer;
+}
+#about {
+  opacity: 1;
+  animation: fadeIn3 4s ease-in;
+}
+#credits {
+  opacity: 1;
+  animation: fadeIn4 5s ease-in;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* RUNNERS - WELCOME */
+.row {
+  position: absolute;
+  line-height: 105%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+#runners {
+  position: relative;
+  animation: fadeIn4 7s ease-in, bounceUp 2s linear 6s infinite;
+}
+.running img:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+.running img {
+  height: 40px;
+  width: 40px;
+}
+#zero {
+  display: inline;
+}
+.away {
+  display: none;
+}
+#one-half {
+  animation: runningMan 0.7s linear infinite;
+}
+#one {
+  transform: translateY(-43px);
+  animation: runningMan 0.7s linear 0.1s infinite;
+}
+#two {
+  transform: translateY(-86px);
+  animation: runningMan 0.7s linear 0.2s infinite;
+}
+#three {
+  transform: translateY(-129px);
+  animation: runningMan 0.7s linear 0.3s infinite;
+}
+#four {
+  transform: translateY(-171px);
+  animation: runningMan 0.7s linear 0.4s infinite;
+}
+#five {
+  transform: translateY(-214px);
+  animation: runningMan 0.7s linear 0.5s infinite;
+}
+#six {
+  transform: translateY(-257px);
+  animation: runningMan 0.7s linear 0.6s infinite;
+}
+
+
+/* WELCOME & MEADOW TEXT $ STORY-TEXT CLASS */
+#welcome-to {
+  position: relative;
+  font-size: 120%;
+  letter-spacing: 0.85em;
+  animation: fadeIn 1.5s ease-in;
+  animation-fill-mode: forwards;
+}
+#omelas {
+  position: relative;
+  font-family: 'Damion', cursive;
+  font-size: 1000%;
+  margin-left: -2%;
+  animation: fadeIn2 2.5s ease-in;
+}
+.story-text {
+  color: white;
+  position: absolute;
+  font-size: 100%;
+  letter-spacing: 0.12em;
+  line-height: 180%;
+}
+#meadow-text {
+  margin-top: 17%;
+  margin-left: 50%;
+  margin-right: 13%;
+}
+#meadow {
+  position: relative;
+  margin-top: -6.5%;
+  width: 100%;
+  display: none;
+}
+.meadow-items img {
+  position: absolute;
+  width: 100%;
+  margin-left: -0.65%;
+}
+
+
+/* MEADOW TO FESTIVAL */
+#meadow-to-festival:hover {
+  cursor: pointer;
+}
+#meadow-to-festival {
+  position: absolute;
+  height: 115px;
+  width: 15%;
+  margin-top: 38%;
+  margin-left: 55%;
+}
+
+
+/* FESTIVAL (& SOME PALACE) */
+#festival {
+  position: relative;
+  margin-top: -6.5%;
+  width: 100%;
+  display: none;
+  animation: fadeIn 1s linear;
+}
+.festival-items img, .palace-items img {
+  position: absolute;
+  width: 100%;
+  margin-top: 5%;
+  margin-left: -0.6%;
+}
+.music-notes img {
+  position: relative;
+  height: 60px;
+}
+#red-boats {
+  animation: bounceUp 1s ease-in-out infinite;
+}
+#blue-boats {
+  animation: bounceDown 1s ease-in-out infinite;
+}
+#people-1 {
+  animation: march 60s linear 1;
+  animation-fill-mode: forwards;
+}
+#people-2 {
+  animation: march 55s linear 0.8s 1;
+  animation-fill-mode: forwards;
+}
+#horses {
+  animation: march 60s linear 0.5s 1;
+  animation-fill-mode: forwards;
+}
+#music-1 {
+  position: absolute;
+  top: 400px;
+  left: 180px;
+  animation: fadeFloatUp 4s linear 12;
+  animation-fill-mode: both;
+}
+#music-2 {
+  position: absolute;
+  top: 400px;
+  left: 800px;
+  animation: fadeFloatUp 5s linear 3;
+  animation-fill-mode: both;
+}
+#music-3 {
+  position: absolute;
+  top: 350px;
+  left: 250px;
+  animation: fadeFloatUp 3s linear 12;
+  animation-fill-mode: both;
+}
+#music-4 {
+  position: absolute;
+  top: 360px;
+  left: 900px;
+  animation: fadeFloatUp 4.5s linear 4;
+  animation-fill-mode: both;
+}
+#festival-text {
+  margin-top: 13%;
+  margin-left: 23%;
+  margin-right: 23%;
+  line-height: 180%;
+}
+#runner, #festival-to-palace {
+  position: absolute;
+  margin-top: 27%;
+  margin-left: 48%;
+  animation: fadeIn 1s linear, bounceUp 1s ease-in-out infinite;
+}
+#runner {
+  display: none;
+  animation: fadeIn 1s, bounceUp 1s ease-in-out infinite;
+}
+#festival-to-palace {
+  height: 60px;
+  width: 40px;
+}
+#festival-to-palace:hover {
+  cursor: pointer;
+}
+
+/* PALACE */
+#palace {
+  position: relative;
+  margin-top: -6.5%;
+  width: 100%;
+  animation: fadeIn 1s linear;
+  display: none;
+}
+#palace-building {
+  animation: flicker 1.5s linear 8s infinite;
+}
+#palace-text {
+  margin-top: 9%;
+  margin-left: 63%;
+  margin-right: 9%;
+}
+
+/* PALACE DRAGGY THINGS */
+#drag-runner {
+  display: none;
+  animation: fadeIn 1s linear, bounceUp 2s ease-in-out infinite;
+}
+#drag-runner img {
+  position: relative;
+  margin-top: 33%;
+  margin-left: 80%;
+  height: 60px;
+}
+#drag-runner img:hover {
+  cursor: grab;
+}
+#drag-runner img:active {
+  cursor: grabbing;
+}
+#div1 {
+  height: 60px;
+  width: 1px;
+  position: fixed;
+  margin-top: 33%;
+  margin-left: 80%;
+  cursor: grab;
+}
+#div2 {
+  position: absolute;
+  margin-top: 27.1%;
+  margin-left: 30.35%;
+  height: 82px;
+  width: 67px;
+}
+
+/* BASEMENT */
+#basement {
+  display: none;
+}
+#basement-content {
+  color: white;
+  position: absolute;
+  margin-top: 9%;
+  margin-left: 9%;
+  margin-right: 50%;
+  animation: fadeIn 0.7s ease-in-out;
+  animation-fill-mode: forwards;
+}
+.basement-items img {
+  position: absolute;
+  width: 100%;
+  margin-top: -7%;
+  margin-left: -0.6%;
+}
+#floor, #child {
+  animation: fadeIn 8s linear;
+}
+#skeleton {
+  opacity: 0;
+  display: none;
+}
+.storytext {
+  margin-top: 10%;
+  line-height: 180%;
+  letter-spacing: 0.12em;
+}
+#text-zero {
+  display: block;
+}
+#text-one {
+  display: none;
+}
+#text-two {
+  display: none;
+}
+#text-three {
+  display: none;
+}
+#walk-away-text {
+  display: none;
+  margin-top: 22%;
+  text-align: center;
+  letter-spacing: 0.2em;
+  animation:
+}
+#line-1 {
+  line-height: normal;
+  animation: fadeIn 2s ease-in-out;
+  animation-fill-mode: both;
+}
+#line-2 {
+  opacity: 0;
+  line-height: normal;
+  animation: fadeIn 2s ease-in-out 2s;
+  animation-fill-mode: both;
+}
+/* BUTTONS */
+.button {
+  display: inline-block;
+  width: 30%;
+  position: absolute;
+  animation: fadeIn 0.7s ease-in-out;
+  animation-fill-mode: forwards;
+  letter-spacing: 0.12em;
+  line-height: 10%;
+}
+.button:hover {
+  cursor: pointer;
+}
+#back {
+  display: none;
+}
+#next {
+  margin-left: 90%;
+  margin-right: 0%;
+}
+#stay {
+  display: none;
+}
+#stay, #run {
+  margin-top: 10%;
+}
+#run {
+  display: none;
+  margin-left: 81%;
+}
+
+
+/* ALL ANIMATIONS */
+@keyframes bounceUp {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(3px); }
+  100% { transform: translateY(0px); }
+}
+@keyframes bounceDown {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-3px); }
+  100% { transform: translateY(0px); }
+}
+@keyframes fade {
+  0% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+  }
+  35% { opacity: 0; }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn3 {
+  0% { opacity: 0; }
+  60% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fadeIn4 {
+  0% { opacity: 0; }
+  80% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fadeFloatUp {
+  0% {
+    opacity: 0;
+    transform: translateY(0%);
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-500%);
+  }
+}
+@keyframes flicker {
+  0% { opacity: 1; }
+  50% { opacity: 0.3; }
+  100% { opacity: 1; }
+}
+@keyframes flyIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-18px);
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes flyUp {
+  0% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  20% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+}
+@keyframes march {
+  0% { transform: translateX(0%); }
+  2% { transform: translate(-2%, -5px); }
+  4% { transform: translate(-4%, 0px); }
+  6% { transform: translate(-6%, -5px); }
+  8% { transform: translate(-8%, 0px); }
+  10% { transform: translate(-10%, -5px); }
+  12% { transform: translate(-12%, 0px); }
+  14% { transform: translate(-14%, -5px); }
+  16% { transform: translate(-16%, 0px); }
+  18% { transform: translate(-18%, -5px); }
+  20% { transform: translate(-20%, 0px); }
+  22% { transform: translate(-22%, -5px); }
+  24% { transform: translate(-24%, 0px); }
+  26% { transform: translate(-26%, -5px); }
+  28% { transform: translate(-28%, 0px); }
+  30% { transform: translate(-30%, -5px); }
+  32% { transform: translate(-32%, 0px); }
+  34% { transform: translate(-34%, -5px); }
+  36% { transform: translate(-36%, 0px); }
+  38% { transform: translate(-38%, -5px); }
+  40% { transform: translate(-40%, 0px); }
+  42% { transform: translate(-42%, -5px); }
+  44% { transform: translate(-44%, 0px); }
+  46% { transform: translate(-46%, -5px); }
+  48% { transform: translate(-48%, 0px); }
+  50% { transform: translate(-50%, -5px); }
+  52% { transform: translate(-52%, 0px); }
+  54% { transform: translate(-54%, -5px); }
+  56% { transform: translate(-56%, 0px); }
+  58% { transform: translate(-58%, -5px); }
+  60% { transform: translate(-60%, 0px); }
+  62% { transform: translate(-62%, -5px); }
+  64% { transform: translate(-64%, 0px); }
+  66% { transform: translate(-66%, -5px); }
+  68% { transform: translate(-68%, 0px); }
+  70% { transform: translate(-70%, -5px); }
+  72% { transform: translate(-72%, 0px); }
+  74% { transform: translate(-74%, -5px); }
+  76% { transform: translate(-76%, 0px); }
+  78% { transform: translate(-78%, -5px); }
+  80% { transform: translate(-80%, 0px); }
+  82% { transform: translate(-82%, -5px); }
+  84% { transform: translate(-84%, 0px); }
+  86% { transform: translate(-86%, -5px); }
+  88% { transform: translate(-88%, 0px); }
+  90% { transform: translate(-90%, -5px); }
+  92% { transform: translate(-92%, 0px); }
+  94% { transform: translate(-94%, -5px); }
+  96% { transform: translate(-96%, 0px); }
+  98% { transform: translate(-98%, -5px); }
+  100% { transform: translate(-100%, 0px); }
+}
+@keyframes runForward {
+  0% { transform: translateX(-100px); }
+  100% { transform: translateX(100px); }
+}
+@keyframes runningMan {
+  0% { opacity: 1; }
+  8% { opacity: 1; }
+  9% { opacity: 0; }
+  91% { opacity: 0; }
+  92% { opacity: 1; }
+  100% { opacity: 1; }
+}
+@keyframes skeletonFlicker {
+  0% { opacity: 1; }
+  7% { opacity: 1; }
+  10% { opacity: 0; }
+  11% { opacity: 1; }
+  50% { opacity: 1; }
+  51% { opacity: 0; }
+  70% { opacity: 0; }
+  71% { opacity: 1; }
+  98% { opacity: 1; }
+  100% { opacity: 1; }
+}
+@keyframes sunLeft {
+  0% { transform: translateX(0px); }
+  50% { transform: translateX(-4px); }
+  100% { transform: translateX(0px); }
+}
