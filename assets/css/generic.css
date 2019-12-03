@@ -32,7 +32,7 @@ body {
 .nav-bar-item {
   margin-bottom: 2.5%;
   margin-left: 10%;
-  font-size: 85%;
+  font-size: 1.1vw;
   letter-spacing: 0.5em;
 }
 .nav-bar-item a {
@@ -46,9 +46,10 @@ body {
   margin: 0.01%;
   margin-left: 25%;
   margin-right: 25%;
+  font-size: 1.2vw;
 }
 #title {
-  font-size: 300%;
+  font-size: 4vw;
   font-family: 'Damion', cursive;
   margin-top: -5%;
 }
