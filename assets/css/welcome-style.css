@@ -58,7 +58,7 @@ a {
 }
 #runners {
   position: relative;
-  animation: fadeIn4 7s ease-in;
+  /*animation: fadeIn4 7s ease-in;*/
 }
 .running img:hover {
   cursor: pointer;
@@ -79,27 +79,27 @@ a {
   animation: runningMan 0.7s linear infinite;
 }
 #one {
-  transform: translateY(-4.02vw);
+  transform: translateY(-3.7vw);
   animation: runningMan 0.7s linear 0.1s infinite;
 }
 #two {
-  transform: translateY(-8.04vw);
+  transform: translateY(-7.4vw);
   animation: runningMan 0.7s linear 0.2s infinite;
 }
 #three {
-  transform: translateY(-12.06vw);
+  transform: translateY(-11.1vw);
   animation: runningMan 0.7s linear 0.3s infinite;
 }
 #four {
-  transform: translateY(-16.08vw);
+  transform: translateY(-14.8vw);
   animation: runningMan 0.7s linear 0.4s infinite;
 }
 #five {
-  transform: translateY(-20.1vw);
+  transform: translateY(-18.5vw);
   animation: runningMan 0.7s linear 0.5s infinite;
 }
 #six {
-  transform: translateY(-24.24vw);
+  transform: translateY(-22.2vw);
   animation: runningMan 0.7s linear 0.6s infinite;
 }
 
