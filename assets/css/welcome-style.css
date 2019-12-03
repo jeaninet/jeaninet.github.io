@@ -58,7 +58,7 @@ a {
 }
 #runners {
   position: relative;
-  /*animation: fadeIn4 7s ease-in;*/
+  animation: fadeIn4 7s ease-in;
 }
 .running img:hover {
   cursor: pointer;
