@@ -26,7 +26,7 @@ body {
 .nav-bar-item {
   margin-bottom: 2.5%;
   margin-left: 10%;
-  font-size: 85%;
+  font-size: 1.1vw;
   letter-spacing: 0.5em;
 }
 .nav-bar-item:hover {
@@ -58,7 +58,7 @@ a {
 }
 #runners {
   position: relative;
-  animation: fadeIn4 7s ease-in, bounceUp 2s linear 6s infinite;
+  animation: fadeIn4 7s ease-in;
 }
 .running img:hover {
   cursor: pointer;
@@ -66,11 +66,11 @@ a {
   transform: scale(1.1);
 }
 .running img {
-  height: 40px;
-  width: 40px;
+  height: 3.5vw;
 }
 #zero {
   display: inline;
+  animation: bounceUp 2s linear 6s infinite;
 }
 .away {
   display: none;
@@ -79,35 +79,35 @@ a {
   animation: runningMan 0.7s linear infinite;
 }
 #one {
-  transform: translateY(-43px);
+  transform: translateY(-4.02vw);
   animation: runningMan 0.7s linear 0.1s infinite;
 }
 #two {
-  transform: translateY(-86px);
+  transform: translateY(-8.04vw);
   animation: runningMan 0.7s linear 0.2s infinite;
 }
 #three {
-  transform: translateY(-129px);
+  transform: translateY(-12.06vw);
   animation: runningMan 0.7s linear 0.3s infinite;
 }
 #four {
-  transform: translateY(-171px);
+  transform: translateY(-16.08vw);
   animation: runningMan 0.7s linear 0.4s infinite;
 }
 #five {
-  transform: translateY(-214px);
+  transform: translateY(-20.1vw);
   animation: runningMan 0.7s linear 0.5s infinite;
 }
 #six {
-  transform: translateY(-257px);
+  transform: translateY(-24.24vw);
   animation: runningMan 0.7s linear 0.6s infinite;
 }
 
 
-/* WELCOME & MEADOW TEXT $ STORY-TEXT CLASS */
+/* WELCOME & MEADOW TEXT & STORY-TEXT CLASS */
 #welcome-to {
   position: relative;
-  font-size: 120%;
+  font-size: 1.4vw;
   letter-spacing: 0.85em;
   animation: fadeIn 1.5s ease-in;
   animation-fill-mode: forwards;
@@ -115,14 +115,14 @@ a {
 #omelas {
   position: relative;
   font-family: 'Damion', cursive;
-  font-size: 1000%;
+  font-size: 13vw;
   margin-left: -2%;
   animation: fadeIn2 2.5s ease-in;
 }
 .story-text {
   color: white;
   position: absolute;
-  font-size: 100%;
+  font-size: 1.2vw;
   letter-spacing: 0.12em;
   line-height: 180%;
 }
@@ -150,8 +150,8 @@ a {
 }
 #meadow-to-festival {
   position: absolute;
-  height: 115px;
-  width: 15%;
+  height: 9vw;
+  width: 15vw;
   margin-top: 38%;
   margin-left: 55%;
 }
@@ -173,7 +173,7 @@ a {
 }
 .music-notes img {
   position: relative;
-  height: 60px;
+  height: 5vw;
 }
 #red-boats {
   animation: bounceUp 1s ease-in-out infinite;
@@ -195,29 +195,29 @@ a {
 }
 #music-1 {
   position: absolute;
-  top: 400px;
-  left: 180px;
+  top: 20vw;
+  left: 18vw;
   animation: fadeFloatUp 4s linear 12;
   animation-fill-mode: both;
 }
 #music-2 {
   position: absolute;
-  top: 400px;
-  left: 800px;
+  top: 22vw;
+  left: 30vw;
   animation: fadeFloatUp 5s linear 3;
   animation-fill-mode: both;
 }
 #music-3 {
   position: absolute;
-  top: 350px;
-  left: 250px;
+  top: 21vw;
+  left: 70vw;
   animation: fadeFloatUp 3s linear 12;
   animation-fill-mode: both;
 }
 #music-4 {
   position: absolute;
-  top: 360px;
-  left: 900px;
+  top: 20vw;
+  left: 80vw;
   animation: fadeFloatUp 4.5s linear 4;
   animation-fill-mode: both;
 }
@@ -229,8 +229,8 @@ a {
 }
 #runner, #festival-to-palace {
   position: absolute;
-  margin-top: 27%;
-  margin-left: 48%;
+  margin-top: 26.5vw;
+  margin-left: 48vw;
   animation: fadeIn 1s linear, bounceUp 1s ease-in-out infinite;
 }
 #runner {
@@ -238,8 +238,8 @@ a {
   animation: fadeIn 1s, bounceUp 1s ease-in-out infinite;
 }
 #festival-to-palace {
-  height: 60px;
-  width: 40px;
+  height: 5vw;
+  width: 5vw;
 }
 #festival-to-palace:hover {
   cursor: pointer;
@@ -271,7 +271,7 @@ a {
   position: relative;
   margin-top: 33%;
   margin-left: 80%;
-  height: 60px;
+  /*height: 5vw;*/
 }
 #drag-runner img:hover {
   cursor: grab;
@@ -280,8 +280,8 @@ a {
   cursor: grabbing;
 }
 #div1 {
-  height: 60px;
-  width: 1px;
+  height: 5vw;
+  width: 5vw;
   position: fixed;
   margin-top: 33%;
   margin-left: 80%;
@@ -291,8 +291,8 @@ a {
   position: absolute;
   margin-top: 27.1%;
   margin-left: 30.35%;
-  height: 82px;
-  width: 67px;
+  height: 6vw;
+  width: 5vw;
 }
 
 /* BASEMENT */
@@ -307,6 +307,7 @@ a {
   margin-right: 50%;
   animation: fadeIn 0.7s ease-in-out;
   animation-fill-mode: forwards;
+  font-size: 1.2vw;
 }
 .basement-items img {
   position: absolute;
@@ -343,7 +344,7 @@ a {
   margin-top: 22%;
   text-align: center;
   letter-spacing: 0.2em;
-  animation:
+  font-size: 1.2vw;
 }
 #line-1 {
   line-height: normal;

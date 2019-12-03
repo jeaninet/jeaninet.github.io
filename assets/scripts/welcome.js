@@ -62,6 +62,7 @@ function changeRunner(walk) {
     }
     document.getElementById("zero").style.display = "inline";
   }
+  document.getElementById("runners").onclick = runnerClicked;
 }
 
 // Nav Bar Functions
