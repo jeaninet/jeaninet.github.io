@@ -195,28 +195,28 @@ a {
 }
 #music-1 {
   position: absolute;
-  top: 20vw;
+  top: 30vw;
   left: 18vw;
   animation: fadeFloatUp 4s linear 12;
   animation-fill-mode: both;
 }
 #music-2 {
   position: absolute;
-  top: 22vw;
+  top: 29vw;
   left: 30vw;
   animation: fadeFloatUp 5s linear 3;
   animation-fill-mode: both;
 }
 #music-3 {
   position: absolute;
-  top: 21vw;
+  top: 31vw;
   left: 70vw;
   animation: fadeFloatUp 3s linear 12;
   animation-fill-mode: both;
 }
 #music-4 {
   position: absolute;
-  top: 20vw;
+  top: 30vw;
   left: 80vw;
   animation: fadeFloatUp 4.5s linear 4;
   animation-fill-mode: both;
